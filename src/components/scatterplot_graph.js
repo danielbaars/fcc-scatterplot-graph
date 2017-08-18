@@ -197,7 +197,7 @@ export default class ScatterplotGraph extends Component {
     let tooltipOut = () => {
       tooltip.transition()
         .duration(500)
-        .style("opacity", 1);
+        .style("opacity", 0);
     }
 
 
